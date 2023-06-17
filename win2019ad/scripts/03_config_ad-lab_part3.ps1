@@ -32,12 +32,12 @@ Write-Host "Stage folder        : $StageFolder"
 Write-Host "Log folder          : $LogFolder"
 
 # Download AD Scripts
-Write-Host '- call 26_install_tools script -------------------------------------'
-& "$StageFolder\ad-lab\scripts\26_install_tools.ps1" 
+# Write-Host '- call 26_install_tools script -------------------------------------'
+# & "$StageFolder\ad-lab\scripts\26_install_tools.ps1" 
 Write-Host '- call 28_config_misc script ---------------------------------------'
 & "$StageFolder\ad-lab\scripts\28_config_misc.ps1"
-Write-Host '- call 28_install_oracle_client script -----------------------------'
-& "$StageFolder\ad-lab\scripts\28_install_oracle_client.ps1"
+# Write-Host '- call 28_install_oracle_client script -----------------------------'
+# & "$StageFolder\ad-lab\scripts\28_install_oracle_client.ps1"
 Write-Host '- call 13_config_ca script -----------------------------------------'
 & "$StageFolder\ad-lab\scripts\13_config_ca.ps1"
 
