@@ -30,7 +30,7 @@ param (
 # - Variables ------------------------------------------------------------------
 $StageFolder            = "C:\stage"
 $LogFolder              = "$StageFolder\logs"
-$GitHubURL              = "https://github.com/oehrlis/ad-lab/archive/refs/heads/main.zip"
+$GitHubURL              = "https://github.com/notjustanyjoe/ad-lab/archive/refs/heads/main.zip"
 $DefaultConfigFile      = "$StageFolder\ad-lab\config\default_configuration.txt"
 # - EOF Variables --------------------------------------------------------------
 
