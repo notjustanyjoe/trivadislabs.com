@@ -25,8 +25,8 @@ common:
   default_password: LAB01schulung
   domain_name: trivadislabs.com
   company_name: 'Trivadis-LAB'
-  gateway: 10.0.0.1
-  dns: 10.0.0.4
+  gateway: 10.0.1.1
+  dns: 10.0.1.4
   public_dns1: 8.8.8.8
   public_dns2: 4.4.4.4
 # - EOF Common Config --------------------------------------------------------
@@ -41,7 +41,7 @@ win2016ad:
   groups_ou_name: Groups
   mem_size: 2048
   cpus: 1
-  public_ip: 10.0.0.4
+  public_ip: 10.0.1.4
 
 # Configuration valid for Windows 2019 AD server
 win2019ad:
@@ -52,7 +52,7 @@ win2019ad:
   groups_ou_name: Groups
   mem_size: 2048
   cpus: 1
-  public_ip: 10.0.0.4
+  public_ip: 10.0.1.4
 
 # - EOF AD Config -------------------------------------------------------------
 
@@ -66,7 +66,7 @@ ol7oud12:
   vm_name: ol7oud12
   mem_size: 1024
   cpus: 1
-  public_ip: 10.0.0.5
+  public_ip: 10.0.1.5
   ssh_port: 8022
   ldap_port: 8389
   ldaps_port: 8636
@@ -82,7 +82,7 @@ ol7db21:
   vm_name: ol7db21
   mem_size: 4096
   cpus: 2
-  public_ip: 10.0.0.21
+  public_ip: 10.0.1.21
   ssh_port: 21022
   tns_port: 21521
   console_port: 21500
@@ -108,7 +108,7 @@ ol7db20:
   vm_name: ol7db20
   mem_size: 4096
   cpus: 2
-  public_ip: 10.0.0.20
+  public_ip: 10.0.1.20
   ssh_port: 20022
   tns_port: 20521
   console_port: 20500
@@ -132,7 +132,7 @@ ol7db19:
   vm_name: ol7db19
   mem_size: 4096
   cpus: 2
-  public_ip: 10.0.0.19
+  public_ip: 10.0.1.19
   ssh_port: 19022
   tns_port: 19521
   console_port: 19500
@@ -159,7 +159,7 @@ ol7db18:
   vm_name: ol7db18
   mem_size: 4096
   cpus: 2
-  public_ip: 10.0.0.18
+  public_ip: 10.0.1.18
   ssh_port: 18022
   tns_port: 18521
   console_port: 18500
@@ -179,7 +179,7 @@ ol7db122:
   vm_name: ol7db122
   mem_size: 4096
   cpus: 2
-  public_ip: 10.0.0.12
+  public_ip: 10.0.1.12
   ssh_port: 12022
   tns_port: 12521
   console_port: 12500
@@ -199,7 +199,7 @@ ol7db112:
   vm_name: ol7db112
   mem_size: 4096
   cpus: 2
-  public_ip: 10.0.0.11
+  public_ip: 10.0.1.11
   ssh_port: 11022
   tns_port: 11521
   oracle_sid_cdb: ''
