@@ -34,8 +34,8 @@ Write-Host "Log folder          : $LogFolder"
 # Download AD Scripts
 Write-Host '- call 01_install_ad_role script -----------------------------------'
 & "$StageFolder\ad-lab\scripts\01_install_ad_role.ps1" 
-Write-Host '- call 22_install_chocolatey script --------------------------------'
-& "$StageFolder\ad-lab\scripts\22_install_chocolatey.ps1"
+# Write-Host '- call 22_install_chocolatey script --------------------------------'
+# & "$StageFolder\ad-lab\scripts\22_install_chocolatey.ps1"
 
 Stop-Transcript
 Write-Host '= Finish AD-Lab config part I ======================================'
